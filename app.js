@@ -1,15 +1,6 @@
 const $ = (id) => document.getElementById(id);
 const catalog = [
-	[
-		"Melk",
-		555,
-		1.5,
-		4.8,
-		10.7,
-		"lactose",
-		"auto",
-		["melk", "halfvolle melk"],
-	],
+	["Melk", 555, 1.5, 4.8, 10.7, "lactose", "auto", ["melk", "halfvolle melk"]],
 	["Room", 280, 40, 3, 45.5, "lactose", "auto", ["room", "slagroom"]],
 	["Eidooier", 60, 27, 0.6, 48, "sucrose", "vast", ["eidooier", "eigeel"]],
 	["Cacaopoeder", 65, 21, 0.9, 97, "sucrose", "vast", ["cacao", "cacaopoeder"]],
